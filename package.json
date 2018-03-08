@@ -1,0 +1,32 @@
+{
+  "name": "quickopen",
+  "version": "1.1.1",
+  "description": "a cmd tool to open file in explorer",
+  "main": "index.js",
+  "bin": {
+    "qk": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngxingmyGitTX/quickOpen.git"
+  },
+  "keywords": [
+    "node",
+    "shell",
+    "cmd"
+  ],
+  "author": "ngxing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngxingmyGitTX/quickOpen/issues"
+  },
+  "homepage": "https://github.com/ngxingmyGitTX/quickOpen#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.14.1",
+    "shelljs": "^0.8.1"
+  }
+}
