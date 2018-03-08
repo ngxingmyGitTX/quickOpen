@@ -21,7 +21,6 @@ program
       name: name,
       path: options.path
     });
-    process.exit(1);
   });
 // reset
 program
@@ -40,7 +39,6 @@ program
       name: name,
       newname: options.newname
     });
-    process.exit(1);
   });
 // delete
 program
@@ -53,7 +51,6 @@ program
     del(baseFileObj, {
       name: name
     });
-    process.exit(1);
   });
 // show
 program
@@ -66,7 +63,6 @@ program
     show(baseFileObj, {
       name: name
     });
-    process.exit(1);
   });
 // open
 program
@@ -83,6 +79,5 @@ program
     open(baseFileObj, {
       name: name
     });
-    process.exit(1);
   });
 program.parse(process.argv); //初始化执行
