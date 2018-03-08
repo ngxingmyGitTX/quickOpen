@@ -27,7 +27,7 @@ program
   .command('reset [name]')
   .alias('r')
   .description('reset a name')
-  .option('-new, --newname [newname]', 'the newname that you want to replace the old one')
+  .option('-n, --newname [newname]', 'the newname that you want to replace the old one')
   .action(function (name, options) {
     if (!name || !options.newname) {
       console.log('require name params'.red);
