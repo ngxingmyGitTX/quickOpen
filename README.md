@@ -1,2 +1,2 @@
 # quickOpen
-cmd tool
+view how to use => http://www.ngxinglearn.xin/detail/36
