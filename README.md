@@ -1,2 +1,4 @@
 # quickOpen
-view how to use => http://www.ngxinglearn.xin/detail/36
+npm i quickopen --save -g
+qk set name -p path
+qk o name
